@@ -1,4 +1,4 @@
-/*Css for simple portfolio site authored by Joseph Pulaski 8/09/2016 all rights reserved*/
+/*Css for simple portfolio site authored by Joseph Pulaski 8/09/2016*/
 			* {
 			margin: 0;
 			}
@@ -78,6 +78,10 @@ body {
 			color: #4aaaa5;
 			text-decoration: none;
  			padding: 10px;
+		}
+
+		a:hover {
+			color: black;
 		}
 
 		strong {
@@ -220,6 +224,11 @@ body {
     		color: #ffffff;
 		}
 
+		button:hover {
+			background-color: #5E7F7E;
+			color:#4aaaa5;
+		}
+
 		.foliopic {
 
 			margin: 20px;
@@ -228,6 +237,8 @@ body {
 			margin: 0 auto;
 
 		}
+
+
 
 	div.background {
 			height: 200px;
