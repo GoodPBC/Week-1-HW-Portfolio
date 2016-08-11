@@ -28,6 +28,8 @@ body {
 		h1, h2, h3 { 
 			font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
 			color: #4aaaa5;
+			padding-top: 20px;
+			padding-bottom: 10px
 		}
 
 		h3 {
@@ -40,6 +42,7 @@ body {
 			
 			border-bottom: 2px solid #cccccc; 
 			background-color: #ffffff;
+			position: relative;
 		}
 
 		.name {
@@ -49,14 +52,14 @@ body {
 			float: left;
 			height: 100%;
 			margin: 0;
-			padding: 30px;
+			padding: 23px;
 		}
 
 		nav { 
 			width: 960px;
 			margin: 0 auto;
 			background-color: #ffffff;
-			/*position: relative; */
+			position: relative;
 			overflow: hidden; 
 		}
 
@@ -68,7 +71,7 @@ body {
 		li {
 			clear: both;
 			display: inline-block;
-			padding-top: 20px;
+			padding-top: 30px;
 		}
 
 		a {
@@ -80,12 +83,11 @@ body {
 		strong {
 			font-size: 28;
 			color: #4aaaa5;
-			opacity: .3;
+			opacity: .1;
 		}
 
 
 		#ContentContainer {
-			clear: both;
 			width: 960px;
 			height: 100%;
 			margin: 0 auto;
@@ -101,7 +103,6 @@ body {
 			padding-left: 29px;
 			padding-right: 29px;
 			background-color: white;
-			color: black;
 			border: 1px solid #dddddd;
 		}
 
@@ -111,7 +112,7 @@ body {
 		.profilepic {
 			float: left; 
 			margin: 20px 20px 20px 0px;  
-			height: 300px;
+			height: 200px;
 			width: 200px;
 		}
 
@@ -124,17 +125,18 @@ body {
 
 		.Connect {
 			clear: both;
-			width: 250px;
 			background-color: white;
 			float: right;
 			padding: 0px 10px 10px 10px;
-			margin: 0px;
 			border: 1px solid #dddddd;
 			
 		}
 
 		.connectIcons {
-
+			width: 60px;
+		    height: 60px;
+		    text-align: center;
+		    padding-top: 10px;
 			
 			
 			
@@ -145,12 +147,12 @@ body {
 		img {
 			width: 60px;
 			height: 60px;
-			text-align: center;
+			
 
 		}
 
 
-		}
+	
 			 
 			
 			
@@ -165,14 +167,92 @@ body {
 			margin: 0 auto;
 			border-top: 3px solid #cccccc; 
 			background-color: #ffffff;
+			opacity: .7;
+
 			
 		}
 			
 		.foot {
 			text-align: center;
-			margin: 0 auto
+			margin-top: 0;
+			margin: 0 auto;
 			line-height: 3.5;
-			padding: 20px;
+			padding: 27px;
 			background-color: #666666;
+			position: relative;
 
 		}
+
+		.form{
+			width: 100%;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		
+								
+
+
+								/*this will make button styling consistent with your content in cross browser 
+								environment*/
+		
+		
+		
+		 input  {
+		  	width: 100%;
+		  	font-family : inherit;    
+  			font-size   : 100%;
+  			padding-top: 5px;
+  			padding-bottom: 5px;
+  			}
+
+  		textarea {
+  			width: 99.33%;
+  			height: 200px;
+		  	font-family : inherit;
+		  	padding-top: 5px;
+  			padding-bottom: 5px;
+  		}		
+
+		button {
+			padding: 10px 20px 10px 20px;
+    		margin-left: 529px;
+    		background-color: #4aaaa5;
+    		color: #ffffff;
+		}
+
+		.foliopic {
+
+			margin: 20px;
+			width: 300px;
+			height: 200px;
+			margin: 0 auto;
+
+		}
+
+	div.background {
+			height: 200px;
+
+			width: 280px;
+			margin: 8px;
+ 			 background: url(http://placehold.it/300x200);
+ 			 border: 2px solid #dddddd;
+}
+
+
+		div.transbox {
+			
+  			margin-top: 140px;
+  			background-color: #4aaaa5;
+			 text-align: center;
+  			
+}
+
+		div.transbox h3 {
+  			margin: 10px;
+  			font-weight: bold;
+  			color: #eeeeee;
+			text-align: center;
+			border: 1px 0px 1px 0px solid #dddddd;
+			padding: 15px;
+		}
+		
